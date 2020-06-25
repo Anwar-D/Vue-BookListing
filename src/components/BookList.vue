@@ -2,7 +2,7 @@
 <div>
 <h1> {{title}}</h1>
 <ul>
-<li v-for= " book in Books">{{book.title}}:{{book.author}}</li>
+<li v-for=" book in books">{{book.title}}:{{book.author}}</li>
 </ul>
 </div>
 </template>
@@ -16,7 +16,7 @@ title: 'All Books'
 books:[
    {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
    {title: 'American Gods', author: 'Neil Gaiman'},
-   {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
+   {title: 'Amusing Ourselves to Death', author: 'Neil Postman'}
    ]
 }
 }
@@ -32,7 +32,7 @@ list-style-type: none;
 padding:0;
 }
 li{
-display: black;
+display: block;
 margin: 0 10px;
 }
 </style>
