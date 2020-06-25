@@ -1,6 +1,6 @@
 <template>
 <div>
-<h1> {{title}}</h1>
+<li> {{title}}</li>
 </div>
 </template>
 <script>
