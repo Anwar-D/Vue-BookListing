@@ -2,7 +2,7 @@
 <div>
 <h1> {{title}}</h1>
 <ul>
-<li> v-for= " book in Books"{{book.title}}:{{book.author}}</li>
+<li v-for= " book in Books">{{book.title}}:{{book.author}}</li>
 
 </ul>
 
@@ -15,10 +15,10 @@ data(){
 return{
 title: 'All Books'
 book:[
-{title: 'self-Reliance',author: 'Ralph Waldo Emerson'},
-{title: 'American Gods',author: 'Neil Gaiman'},
-{title: 'Amusing Ourselves to Death',author: 'Neil Postan'},
-]
+{title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+   {title: 'American Gods', author: 'Neil Gaiman'},
+   {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},]
+}
 }
 }
 }
