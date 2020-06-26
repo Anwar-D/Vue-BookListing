@@ -33,7 +33,7 @@ export default {
         {title: "Amusing Ourselves to Death",
           author: "Neil Postman",
           finishedReading: true}
-      ],
+      ]
     };
   },
 components: {
