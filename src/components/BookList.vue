@@ -35,7 +35,7 @@ export default {
           title: "Amusing Ourselves to Death",
           author: "Neil Postman",
           finishedReading: true
-        }
+        
       ]
     };
   },
@@ -51,7 +51,7 @@ BookItem,
      finishedReading: bookData.finishedReading
      });
    }
- 
+
 };
 </script>
 
