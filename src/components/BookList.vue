@@ -51,7 +51,7 @@ BookItem,
      finishedReading: bookData.finishedReading
      });
    }
- }
+ 
 };
 </script>
 
