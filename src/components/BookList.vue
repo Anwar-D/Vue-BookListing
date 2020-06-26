@@ -49,7 +49,7 @@ BookItem,
      title: bookData.bookTitle,
      author: bookData.bookAuthor,
      finishedReading: bookData.finishedReading
-     );
+     });
    }
  }
 };
